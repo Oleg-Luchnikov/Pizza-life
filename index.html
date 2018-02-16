@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>PizzaLife</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/jquery.mmenu.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<a href="/" class="logo-left"><img src="img/logo-pizza.png" alt=""></a>
+		<nav class="header-nav">
+			<ul class="main-nav">
+				<li class="item-has-child">
+					<span>Кафе</span>
+					<ul class="dropdown-menu">
+						<li><a href="#">ул. Салтовское шоссе, 248</a></li>
+						<li><a href="#">ул. 23 августа, 38</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Оплата и доставка</a></li>
+				<li><a href="#">Акции</a></li>
+				<li><a href="#">Вакансии</a></li>
+				<li class="item-has-child">
+					<span>Контакты</span>
+					<ul class="dropdown-menu">
+						<li><a href="#">+38-067-139-77-44</a></li>
+						<li><a href="#">+38-063-339-77-44</a></li>
+						<li><a href="#">+38-066-457-24-44</a></li>
+						<li><a href="#">+38 (057)731-60-77</a></li>
+						<li><a href="#">+38 (057)731-40-77</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="login-box">
+				<li class="login"><a href="#">Вход</a></li>
+				<li class="registration"><a href="#">Регистрация</a></li>
+			</ul>
+		</nav>
+		<a href="/" class="logo-right"><img src="img/logo-sushi.png" alt=""></a>
+		<div class="cart-block">
+			<div class="cart-header">
+				<div class="cart-header-left-block">
+					<div class="cart-image">
+						<figure class="icon-basket"><span class="items-count">1</span></figure>
+						<span class="price-preview">100 грн</span>
+					</div>
+				</div>
+				<div class="cart-header-right-block">
+					<a href="#" class="order-btn">Заказать</a>
+				</div>
+			</div>
+			<div class="cart-list-items">
+				<ul>
+					<li class="list-item">
+						<div class="row">
+							<div class="list-item-img">
+								<img src="img/product-img.jpg" alt="product-img">
+								<span class="quantity">100</span>
+							</div>
+							<div class="list-item-info">
+								<a href="#" class="list-item-name">Рождественская пицца метровая</a>
+								<span class="list-item-weight">42 см (1002 г)</span>
+							</div>
+							<div class="delete-btn-wrapper">
+								<a href="#" class="delete-btn">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+									 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+										<g>
+											<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+												C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+												C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+												C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+											<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+												 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+											<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+											<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+											<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+										</g>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<ul class="additional-mixes">
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<div class="row list-item-total">
+							<div class="item-quantity-wrapper">
+								<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+							</div>
+							<div class="cart-item-price-wrapper">
+								<span class="cart-item-price">250 грн</span>
+							</div>
+						</div>
+					</li>
+					<li class="list-item">
+						<div class="row">
+							<div class="list-item-img">
+								<img src="img/product-img.jpg" alt="product-img">
+								<span class="quantity">100</span>
+							</div>
+							<div class="list-item-info">
+								<a href="#" class="list-item-name">Рождественская пицца метровая</a>
+								<span class="list-item-weight">42 см (1002 г)</span>
+							</div>
+							<div class="delete-btn-wrapper">
+								<a href="#" class="delete-btn">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+									 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+										<g>
+											<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+												C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+												C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+												C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+											<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+												 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+											<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+											<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+											<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+										</g>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<ul class="additional-mixes">
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<div class="row list-item-total">
+							<div class="item-quantity-wrapper">
+								<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+							</div>
+							<div class="cart-item-price-wrapper">
+								<span class="cart-item-price">250 грн</span>
+							</div>
+						</div>
+					</li>
+					<li class="list-item">
+						<div class="row">
+							<div class="list-item-img">
+								<img src="img/product-img.jpg" alt="product-img">
+								<span class="quantity">100</span>
+							</div>
+							<div class="list-item-info">
+								<a href="#" class="list-item-name">Рождественская пицца метровая</a>
+								<span class="list-item-weight">42 см (1002 г)</span>
+							</div>
+							<div class="delete-btn-wrapper">
+								<a href="#" class="delete-btn">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+									 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+										<g>
+											<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+												C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+												C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+												C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+											<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+												 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+											<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+											<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+											<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+										</g>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<ul class="additional-mixes">
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="list-item-info">
+									<span href="#" class="additional-mixes-list-item-name">Шампиньоны свежие</span>
+									<span class="price-value">70 г / 20 грн.</span>
+									<div class="item-quantity-wrapper">
+										<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+									</div>
+								</div>
+								<div class="delete-btn-wrapper">
+									<a href="#" class="delete-btn">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 59 59" style="enable-background:new 0 0 59 59;" xml:space="preserve">
+											<g>
+												<path class="trash-cover" d="M52.5,6H38.456c-0.11-1.25-0.495-3.358-1.813-4.711C35.809,0.434,34.751,0,33.499,0H23.5c-1.252,0-2.31,0.434-3.144,1.289
+													C19.038,2.642,18.653,4.75,18.543,6H6.5c-0.552,0-1,0.447-1,1s0.448,1,1,1h46c0.552,0,1-0.447,1-1S53.052,6,52.5,6z M21.792,2.681
+													C22.24,2.223,22.799,2,23.5,2h9.999c0.701,0,1.26,0.223,1.708,0.681c0.805,0.823,1.128,2.271,1.24,3.319H20.553
+													C20.665,4.952,20.988,3.504,21.792,2.681z"/>
+												<path d="M10.456,54.021C10.493,55.743,11.565,59,15.364,59h28.272c3.799,0,4.871-3.257,4.907-4.958L50.376,10H8.624L10.456,54.021z
+													 M48.291,12l-1.747,41.979C46.538,54.288,46.4,57,43.636,57H15.364c-2.734,0-2.898-2.717-2.909-3.042L10.709,12H48.291z"/>
+												<path d="M17.5,54h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,54,17.5,54z"/>
+												<path d="M17.5,49h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,49,17.5,49z"/>
+												<path d="M17.5,44h24c0.552,0,1-0.447,1-1s-0.448-1-1-1h-24c-0.552,0-1,0.447-1,1S16.948,44,17.5,44z"/>
+											</g>
+										</svg>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<div class="row list-item-total">
+							<div class="item-quantity-wrapper">
+								<input type="number" class="item-quantity" id="cart-item-quantity-number" value="1" step="1" min="1" max="100">
+							</div>
+							<div class="cart-item-price-wrapper">
+								<span class="cart-item-price">250 грн</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="cart-footer">
+				<div class="cart-footer-left">
+					<figure class="cart-footer-img"></figure>
+				</div>
+				<div class="cart-footer-right">
+					<div class="row cart-footer-price">
+						<span class="cart-footer-info-title">Общая сумма</span>
+						<span class="total-price-value">666 грн.</span>
+					</div>
+					<div class="row cart-footer-delivery">
+						<span class="cart-footer-info-title">Доставка</span>
+						<span class="delivery-info">Бесплатно</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="category-nav">
+			<ul>
+				<li><a href="#"><i class="pizza"></i>Пицца</a></li>
+				<li><a href="#"><i class="sushi"></i>Суши, роллы, сеты</a></li>
+				<li><a href="#"><i class="salads"></i>Салаты</a></li>
+				<li><a href="#"><i class="snack"></i>Закуски</a></li>
+				<li><a href="#"><i class="dessert"></i>Десерты</a></li>
+				<li><a href="#"><i class="drinks"></i>Напитки</a></li>
+				<li><a href="#"><i class="other"></i>Прочее (супы, доп.наборы)</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main">
+		<div class="main-slider-wrapper">
+			<div class="swiper-container main-slider">
+				<div class="swiper-wrapper ">
+					<div class="swiper-slide">
+						<img src="img/slider-img.jpg" alt="Slider-img">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/slider-img.jpg" alt="Slider-img">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/slider-img.jpg" alt="Slider-img">
+					</div>
+				</div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</div>
+		<div class="section-box section-hits">
+			<div class="container">
+				<span class="section-title">Пицца. Хиты сезона</span>
+				<div class="hits-slider-wrapper">
+					<div class="swiper-container hits-slider">
+						<div class="swiper-wrapper ">
+							<div class="swiper-slide">
+								<div class="product-wrapper">
+									<figure>
+										<img src="img/slider-img.jpg" alt="Slider-img">
+									</figure>
+									<div class="product-info">
+										<span class="product-title">Рождественская пицца метровая</span>
+										<span class="product-descr">
+											Копченая грудинка, шампиньоны, помидоры, моцарелла, куриное филе, соус BBQ, соус Pomodoro,  моцарелла, куриное филе, соус BBQ, соус Pomodoro
+										</span>
+										<div class="product-options">
+											<span class="option-item">
+												30 см (535 г)
+											</span>
+											<span class="option-item">
+												32 см (648 г)
+											</span>
+											<span class="option-item">
+												42 см (1002 г)
+											</span>
+										</div>
+										<div class="product-price-box">
+											<span class="product-price">250 грн</span>
+											<span class="item-quantity-title">Кол-во:</span>
+											<div class="item-quantity-wrapper">
+												<input type="text" class="item-quantity" id="cart-item-quantity-number" value="1">
+											</div>
+										</div>
+										<a href="#" class="order-btn">Заказать</a>
+										<a href="#" class="to-favourites-btn">+ Добавить в избранное</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<img src="img/slider-img.jpg" alt="Slider-img">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/slider-img.jpg" alt="Slider-img">
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mmenu.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

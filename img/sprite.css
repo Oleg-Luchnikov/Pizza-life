@@ -1,0 +1,84 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-arrow-next {
+  background-image: url(sprite.png);
+  background-position: -47px -111px;
+  width: 17px;
+  height: 31px;
+}
+.icon-arrow-prev {
+  background-image: url(sprite.png);
+  background-position: -30px -111px;
+  width: 17px;
+  height: 31px;
+}
+.icon-bag-food {
+  background-image: url(sprite.png);
+  background-position: -148px -45px;
+  width: 40px;
+  height: 52px;
+}
+.icon-basket {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 46px;
+  height: 60px;
+}
+.icon-cocktail {
+  background-image: url(sprite.png);
+  background-position: 0px -60px;
+  width: 46px;
+  height: 51px;
+}
+.icon-ice-cream {
+  background-image: url(sprite.png);
+  background-position: 0px -111px;
+  width: 30px;
+  height: 52px;
+}
+.icon-list {
+  background-image: url(sprite.png);
+  background-position: -97px -60px;
+  width: 46px;
+  height: 42px;
+}
+.icon-salads {
+  background-image: url(sprite.png);
+  background-position: -148px 0px;
+  width: 52px;
+  height: 45px;
+}
+.icon-pizza {
+  background-image: url(sprite.png);
+  background-position: -46px -60px;
+  width: 51px;
+  height: 46px;
+}
+.icon-sandwiche {
+  background-image: url(sprite.png);
+  background-position: -46px 0px;
+  width: 52px;
+  height: 52px;
+}
+.icon-sushi {
+  background-image: url(sprite.png);
+  background-position: -98px 0px;
+  width: 50px;
+  height: 51px;
+}
